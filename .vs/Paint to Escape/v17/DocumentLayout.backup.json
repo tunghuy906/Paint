@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{CAA2D5BC-1506-CD20-F2D8-DB51D181AF83}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\zombiecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CAA2D5BC-1506-CD20-F2D8-DB51D181AF83}|Assembly-CSharp.csproj|c:\\unity\\paint to escape\\assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CAA2D5BC-1506-CD20-F2D8-DB51D181AF83}|Assembly-CSharp.csproj|C:\\Unity\\Paint to Escape\\assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CAA2D5BC-1506-CD20-F2D8-DB51D181AF83}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "Assets\\Script\\ZombieController.cs",
               "ToolTip": "C:\\Unity\\Paint to Escape\\Assets\\Script\\ZombieController.cs",
               "RelativeToolTip": "Assets\\Script\\ZombieController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwDUAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-07T12:48:10.43Z",
               "EditorCaption": ""
@@ -43,8 +43,7 @@
               "RelativeToolTip": "Assets\\Script\\PlayerController.cs",
               "ViewState": "AgIAADMAAAAAAAAAAAAYwB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T03:52:04.748Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-06T03:52:04.748Z"
             }
           ]
         }
