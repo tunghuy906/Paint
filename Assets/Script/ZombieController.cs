@@ -35,7 +35,15 @@ public class ZombieController : MonoBehaviour
 
     void Update()
     {
-        if (isDead) return;
+		if (GameStateManager.Instance != null && GameStateManager.Instance.isDesignMode)
+		{
+			rb.linearVelocity = Vector2.zero;     
+			animator.SetBool("isRunning", false);
+			animator.SetBool("isAttacking", false);
+			return;
+		}
+
+		if (isDead) return;
 
         // ===== CHECK GROUND =====
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
@@ -73,17 +81,15 @@ public class ZombieController : MonoBehaviour
 
         attackTimer -= Time.deltaTime;
 
-        if (playerInRange && attackTimer <= 0)
-        {
-            isAttacking = true;
-            attackTimer = attackCooldown;
-        }
-        else
-        {
-            isAttacking = false;
-        }
+		if (playerInRange && !isAttacking && attackTimer <= 0)
+		{
+			isAttacking = true;
+			animator.SetBool("isAttacking", true);
+			rb.linearVelocity = Vector2.zero;
+			attackTimer = attackCooldown;
+		}
 
-        animator.SetBool("isAttacking", isAttacking);
+		animator.SetBool("isAttacking", isAttacking);
 
         // ===== MOVE =====
         if (!isAttacking)
@@ -105,9 +111,24 @@ public class ZombieController : MonoBehaviour
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         }
     }
+	public void DamagePlayer()
+	{
+		Collider2D hit = Physics2D.OverlapCircle(
+			attackPoint.position,
+			attackRange,
+			playerLayer
+		);
 
-    // ===== DIE WHEN HIT TRAP =====
-    private void OnTriggerEnter2D(Collider2D other)
+		if (hit != null)
+		{
+			PlayerController player = hit.GetComponent<PlayerController>();
+			if (player != null)
+			{
+				player.Die();
+			}
+		}
+	}
+	private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Trap"))
         {
