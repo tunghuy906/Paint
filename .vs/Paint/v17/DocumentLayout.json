@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "C:\\unity111\\Paint\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4E923510-61A0-DE3B-B71C-0CEBDA2CCD37}|Assembly-CSharp.csproj|C:\\unity111\\Paint\\assets\\script\\zombiecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E923510-61A0-DE3B-B71C-0CEBDA2CCD37}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\zombiecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E923510-61A0-DE3B-B71C-0CEBDA2CCD37}|Assembly-CSharp.csproj|C:\\unity111\\Paint\\assets\\script\\designpillar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E923510-61A0-DE3B-B71C-0CEBDA2CCD37}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\designpillar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E923510-61A0-DE3B-B71C-0CEBDA2CCD37}|Assembly-CSharp.csproj|C:\\unity111\\Paint\\assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E923510-61A0-DE3B-B71C-0CEBDA2CCD37}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4E923510-61A0-DE3B-B71C-0CEBDA2CCD37}|Assembly-CSharp.csproj|C:\\unity111\\Paint\\assets\\script\\playerdesign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E923510-61A0-DE3B-B71C-0CEBDA2CCD37}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playerdesign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4E923510-61A0-DE3B-B71C-0CEBDA2CCD37}|Assembly-CSharp.csproj|c:\\unity111\\paint\\assets\\script\\gamestatemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E923510-61A0-DE3B-B71C-0CEBDA2CCD37}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gamestatemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E923510-61A0-DE3B-B71C-0CEBDA2CCD37}|Assembly-CSharp.csproj|c:\\unity111\\paint\\assets\\script\\hudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E923510-61A0-DE3B-B71C-0CEBDA2CCD37}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\hudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4E923510-61A0-DE3B-B71C-0CEBDA2CCD37}|Assembly-CSharp.csproj|C:\\unity111\\Paint\\assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E923510-61A0-DE3B-B71C-0CEBDA2CCD37}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E923510-61A0-DE3B-B71C-0CEBDA2CCD37}|Assembly-CSharp.csproj|C:\\unity111\\Paint\\assets\\script\\playerdesign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E923510-61A0-DE3B-B71C-0CEBDA2CCD37}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playerdesign.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4E923510-61A0-DE3B-B71C-0CEBDA2CCD37}|Assembly-CSharp.csproj|C:\\unity111\\Paint\\assets\\script\\tilemappainter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E923510-61A0-DE3B-B71C-0CEBDA2CCD37}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\tilemappainter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E923510-61A0-DE3B-B71C-0CEBDA2CCD37}|Assembly-CSharp.csproj|C:\\unity111\\Paint\\assets\\script\\designpillar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E923510-61A0-DE3B-B71C-0CEBDA2CCD37}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\designpillar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4E923510-61A0-DE3B-B71C-0CEBDA2CCD37}|Assembly-CSharp.csproj|C:\\unity111\\Paint\\assets\\script\\penpickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,6 +29,26 @@
     {
       "AbsoluteMoniker": "D:0:0:{4E923510-61A0-DE3B-B71C-0CEBDA2CCD37}|Assembly-CSharp.csproj|C:\\unity111\\Paint\\assets\\script\\gameuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E923510-61A0-DE3B-B71C-0CEBDA2CCD37}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gameuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E923510-61A0-DE3B-B71C-0CEBDA2CCD37}|Assembly-CSharp.csproj|C:\\unity111\\Paint\\assets\\script\\zombiecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E923510-61A0-DE3B-B71C-0CEBDA2CCD37}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\zombiecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E923510-61A0-DE3B-B71C-0CEBDA2CCD37}|Assembly-CSharp.csproj|C:\\unity111\\Paint\\assets\\script\\firetrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E923510-61A0-DE3B-B71C-0CEBDA2CCD37}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\firetrap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E923510-61A0-DE3B-B71C-0CEBDA2CCD37}|Assembly-CSharp.csproj|C:\\unity111\\Paint\\assets\\script\\autoscrollbackground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E923510-61A0-DE3B-B71C-0CEBDA2CCD37}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\autoscrollbackground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E923510-61A0-DE3B-B71C-0CEBDA2CCD37}|Assembly-CSharp.csproj|C:\\unity111\\Paint\\assets\\script\\zombiemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E923510-61A0-DE3B-B71C-0CEBDA2CCD37}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\zombiemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E923510-61A0-DE3B-B71C-0CEBDA2CCD37}|Assembly-CSharp.csproj|C:\\unity111\\Paint\\assets\\script\\hudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E923510-61A0-DE3B-B71C-0CEBDA2CCD37}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\hudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,24 +58,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "TilemapPainter.cs",
+              "DocumentMoniker": "C:\\unity111\\Paint\\Assets\\Script\\TilemapPainter.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\TilemapPainter.cs",
+              "ToolTip": "C:\\unity111\\Paint\\Assets\\Script\\TilemapPainter.cs",
+              "RelativeToolTip": "Assets\\Script\\TilemapPainter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T10:15:54.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FireTrap.cs",
+              "DocumentMoniker": "C:\\unity111\\Paint\\Assets\\Script\\FireTrap.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\FireTrap.cs",
+              "ToolTip": "C:\\unity111\\Paint\\Assets\\Script\\FireTrap.cs",
+              "RelativeToolTip": "Assets\\Script\\FireTrap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T04:32:56.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AutoScrollBackground.cs",
+              "DocumentMoniker": "C:\\unity111\\Paint\\Assets\\Script\\AutoScrollBackground.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\AutoScrollBackground.cs",
+              "ToolTip": "C:\\unity111\\Paint\\Assets\\Script\\AutoScrollBackground.cs",
+              "RelativeToolTip": "Assets\\Script\\AutoScrollBackground.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T03:26:20.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "GameStateManager.cs",
               "DocumentMoniker": "C:\\unity111\\Paint\\Assets\\Script\\GameStateManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\GameStateManager.cs",
               "ToolTip": "C:\\unity111\\Paint\\Assets\\Script\\GameStateManager.cs",
               "RelativeToolTip": "Assets\\Script\\GameStateManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-08T14:49:19.931Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "HUDController.cs",
               "DocumentMoniker": "C:\\unity111\\Paint\\Assets\\Script\\HUDController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\HUDController.cs",
@@ -67,37 +119,36 @@
               "RelativeToolTip": "Assets\\Script\\HUDController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-08T14:08:23.895Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-08T14:08:23.895Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "DesignPillar.cs",
               "DocumentMoniker": "C:\\unity111\\Paint\\Assets\\Script\\DesignPillar.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\DesignPillar.cs",
               "ToolTip": "C:\\unity111\\Paint\\Assets\\Script\\DesignPillar.cs",
               "RelativeToolTip": "Assets\\Script\\DesignPillar.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAkwEIAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAxwBoAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-08T13:08:14.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-08T13:08:14.249Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "PlayerDesign.cs",
               "DocumentMoniker": "C:\\unity111\\Paint\\Assets\\Script\\PlayerDesign.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PlayerDesign.cs",
               "ToolTip": "C:\\unity111\\Paint\\Assets\\Script\\PlayerDesign.cs",
               "RelativeToolTip": "Assets\\Script\\PlayerDesign.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBkAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-08T13:04:22.908Z"
+              "WhenOpened": "2026-02-08T13:04:22.908Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "PenPickup.cs",
               "DocumentMoniker": "C:\\unity111\\Paint\\Assets\\Script\\PenPickup.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PenPickup.cs",
@@ -109,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "GameUIManager.cs",
               "DocumentMoniker": "C:\\unity111\\Paint\\Assets\\Script\\GameUIManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\GameUIManager.cs",
@@ -127,23 +178,33 @@
               "RelativeDocumentMoniker": "Assets\\Script\\PlayerController.cs",
               "ToolTip": "C:\\unity111\\Paint\\Assets\\Script\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Script\\PlayerController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwCsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAADwvwoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-08T08:14:10.082Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-08T08:14:10.082Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "ZombieController.cs",
               "DocumentMoniker": "C:\\unity111\\Paint\\Assets\\Script\\ZombieController.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\ZombieController.cs",
               "ToolTip": "C:\\unity111\\Paint\\Assets\\Script\\ZombieController.cs",
               "RelativeToolTip": "Assets\\Script\\ZombieController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAADwvycAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAYwIQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-08T07:38:57.066Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-08T07:38:57.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ZombieManager.cs",
+              "DocumentMoniker": "C:\\unity111\\Paint\\Assets\\Script\\ZombieManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\ZombieManager.cs",
+              "ToolTip": "C:\\unity111\\Paint\\Assets\\Script\\ZombieManager.cs",
+              "RelativeToolTip": "Assets\\Script\\ZombieManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T03:00:17.422Z"
             }
           ]
         }

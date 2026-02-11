@@ -4,7 +4,6 @@ public class DesignPillar : MonoBehaviour
 {
 	public GameObject designUI;
 
-	private bool playerInRange = false;
 	private bool isUIOpen = false;
 	private PlayerDesign playerDesign;
 
@@ -19,42 +18,28 @@ public class DesignPillar : MonoBehaviour
 		if (!other.CompareTag("Player")) return;
 
 		playerDesign = other.GetComponent<PlayerDesign>();
-		playerInRange = true;
+
+		if (playerDesign.hasPen)
+		{
+			OpenDesignUI();
+		}
 	}
 
 	private void OnTriggerExit2D(Collider2D other)
 	{
 		if (!other.CompareTag("Player")) return;
 
-		playerInRange = false;
 		CloseDesignUI();
 	}
 
 	private void Update()
 	{
-		if (!playerInRange || playerDesign == null) return;
+		if (!isUIOpen) return;
 
 		if (Input.GetKeyDown(KeyCode.E))
 		{
-			if (playerDesign.hasPen)
-			{
-				ToggleDesignUI();
-			}
-			else
-			{
-				Debug.Log("Cần bút mới mở được bản thiết kế!");
-			}
-		}
-	}
-
-	void ToggleDesignUI()
-	{
-		if (designUI == null) return;
-
-		if (isUIOpen)
 			CloseDesignUI();
-		else
-			OpenDesignUI();
+		}
 	}
 
 	void OpenDesignUI()

@@ -9,7 +9,6 @@ public class PlayerDesign : MonoBehaviour
 	{
 		hud = FindFirstObjectByType<HUDController>();
 
-		// Game mới vào luôn chưa có bút
 		hasPen = false;
 
 		if (hud != null)
@@ -23,6 +22,6 @@ public class PlayerDesign : MonoBehaviour
 		if (hud != null)
 			hud.ShowPenIcon(true);
 
-		Debug.Log("Đã nhặt được bút ✏️");
+		Debug.Log("Đã nhặt được bút");
 	}
 }

@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-	public float moveSpeed = 5f;
+	public float moveSpeed = 7f;
 	public float jumpForce = 12f;
 
 	public Transform groundCheck;

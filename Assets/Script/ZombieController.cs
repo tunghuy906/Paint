@@ -8,8 +8,8 @@ public class ZombieController : MonoBehaviour
     public float attackCooldown = 1.2f;
     private int facingDir = 1;
 
-    public Transform player;
-    public Transform groundCheck;
+	public Transform player;
+	public Transform groundCheck;
     public Transform wallCheck;
     public Transform attackPoint;
 
@@ -31,10 +31,18 @@ public class ZombieController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
-    }
+
+		FindPlayer();
+	}
 
     void Update()
     {
+		if (player == null)
+		{
+			FindPlayer();
+			return;
+		}
+
 		if (GameStateManager.Instance != null && GameStateManager.Instance.isDesignMode)
 		{
 			rb.linearVelocity = Vector2.zero;     
@@ -111,6 +119,18 @@ public class ZombieController : MonoBehaviour
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         }
     }
+	void FindPlayer()
+	{
+		GameObject p = GameObject.FindGameObjectWithTag("Player");
+		if (p != null)
+			player = p.transform;
+	}
+	public void EndAttack()
+	{
+		isAttacking = false;
+		animator.SetBool("isAttacking", false);
+	}
+
 	public void DamagePlayer()
 	{
 		Collider2D hit = Physics2D.OverlapCircle(
@@ -136,17 +156,24 @@ public class ZombieController : MonoBehaviour
         }
     }
 
-    void Die()
-    {
-        isDead = true;
-        rb.linearVelocity = Vector2.zero;
-        rb.bodyType = RigidbodyType2D.Kinematic;
-        animator.SetTrigger("die");
-        Destroy(gameObject, 1.2f);
-    }
+	public void Die()
+	{
+		if (isDead) return;
 
-    // ===== DEBUG GIZMOS =====
-    void OnDrawGizmosSelected()
+		isDead = true;
+		rb.linearVelocity = Vector2.zero;
+		rb.bodyType = RigidbodyType2D.Kinematic;
+		animator.SetTrigger("die");
+
+		if (ZombieManager.Instance != null)
+			ZombieManager.Instance.OnZombieDead();
+
+		Destroy(gameObject, 1.2f);
+	}
+
+
+	// ===== DEBUG GIZMOS =====
+	void OnDrawGizmosSelected()
     {
         if (groundCheck)
             Gizmos.DrawWireSphere(groundCheck.position, 0.2f);

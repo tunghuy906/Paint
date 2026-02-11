@@ -14,7 +14,7 @@ public class AutoScrollBackground : MonoBehaviour
 	void Update()
 	{
 		// Di chuyển sang trái
-		transform.Translate(Vector2.left * scrollSpeed * Time.deltaTime);
+		transform.Translate(Vector2.right * scrollSpeed * Time.deltaTime);
 
 		// Nếu tấm này đi ra ngoài màn hình → reset về cuối
 		if (transform.position.x <= -backgroundWidth)
