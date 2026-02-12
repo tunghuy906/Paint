@@ -49,6 +49,12 @@ public class DesignPillar : MonoBehaviour
 		isUIOpen = true;
 		designUI.SetActive(true);
 
+		if (HUDController.Instance != null)
+		{
+			HUDController.Instance.ShowPenIcon(false);
+			HUDController.Instance.ShowPenBackground(false);
+		}
+
 		GameStateManager.Instance.EnterDesignMode();
 	}
 
@@ -59,6 +65,12 @@ public class DesignPillar : MonoBehaviour
 
 		isUIOpen = false;
 		designUI.SetActive(false);
+
+		if (HUDController.Instance != null)
+		{
+			HUDController.Instance.ShowPenIcon(true);
+			HUDController.Instance.ShowPenBackground(true);
+		}
 
 		GameStateManager.Instance.ExitDesignMode();
 	}
