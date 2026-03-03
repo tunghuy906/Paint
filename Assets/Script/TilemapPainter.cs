@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.Tilemaps;
+using UnityEngine.EventSystems;
 
 public class TilemapPainter : MonoBehaviour
 {
@@ -13,7 +14,7 @@ public class TilemapPainter : MonoBehaviour
 
 	void Update()
 	{
-		
+
 		if (!GameStateManager.Instance.isDesignMode)
 			return;
 
@@ -22,19 +23,39 @@ public class TilemapPainter : MonoBehaviour
 
 	void HandlePaint()
 	{
-		// PC (chuột)
-		if (Input.GetMouseButton(0))
+		if (Input.GetMouseButtonDown(0))
 		{
-			PaintAtPosition(Input.mousePosition);
-		}
+			if (EventSystem.current.IsPointerOverGameObject())
+				return;
 
-		// Mobile (chạm)
-		if (Input.touchCount > 0)
-		{
-			Touch touch = Input.GetTouch(0);
-			PaintAtPosition(touch.position);
+			var resource = ResourceManager.Instance.currentSelected;
+
+			if (resource == null)
+				return;
+
+			if (!ResourceManager.Instance.CanPlace())
+				return;
+
+			Vector3 worldPos = mainCamera.ScreenToWorldPoint(Input.mousePosition);
+			Vector3Int cellPos = designTilemap.WorldToCell(worldPos);
+			Vector3 snappedPos = designTilemap.GetCellCenterWorld(cellPos);
+
+			if (resource.resourceType == ResourceType.Tile)
+			{
+				designTilemap.SetTile(cellPos, resource.tile);
+			}
+			else if (resource.resourceType == ResourceType.Prefab)
+			{
+				Instantiate(resource.prefab, snappedPos, Quaternion.identity);
+			}
+
+			ResourceManager.Instance.UseResource();
+			Debug.Log(ResourceManager.Instance.currentSelected);
+
 		}
 	}
+
+
 
 	void PaintAtPosition(Vector3 screenPosition)
 	{
